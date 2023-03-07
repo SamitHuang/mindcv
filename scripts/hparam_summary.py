@@ -2,6 +2,7 @@
 Usage:
     python scripts/hparam_summary.py --dir configs
 
+To exclude hyperparameters that we don't care from the result table, please add them to `dont_care` list.
 """
 
 import sys
@@ -81,7 +82,7 @@ def main(config_dir, output_path):
     print(f'Job completed. Result saved in {output_path}')
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Training Config', add_help=False)
+    parser = argparse.ArgumentParser(description='Hyper params summary', add_help=False)
     parser.add_argument('-d', '--dir', type=str, default='./configs',
                                help='directory to  the `configs` folder')
     parser.add_argument('-o', '--output_path', type=str, default='./hparam_summary.xlsx',
