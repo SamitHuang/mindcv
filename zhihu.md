@@ -13,13 +13,13 @@
     - Lion
 * 手把手教你如何在MindCV中构建模型
 * ResNet系列高精度模型演进及其在MindCV中的最佳实践
-    - ResNet (2015)
-    - DenseNet (2016)
-    - ResNeXt  (2016)
-    - EfficientNet (2019)
-    - ResNeSt  (2020)
-    - RexNet   (2020)
-    - ConvNeXt (2022)
+    - ResNet (2015) 残差结连接
+    - DenseNet (2016) 密集残差连接
+    - ResNeXt  (2016) 分组卷积与多尺度特征
+    - EfficientNet (2019)  高效的网络深度、宽度扩张
+    - ResNeSt  (2020)  注意力机制改进
+    - RexNet   (2020) 消除特征表达瓶颈
+    - ConvNeXt (2022)  结构与训练策略递进优化
 * MobileNet系列轻量化模型演进及其在MindCV中的最佳实践
     - ShuffleNet V2 (2018)
     - MobileNet V2 (2018)
